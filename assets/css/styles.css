@@ -114,7 +114,7 @@ html {
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -220,6 +220,10 @@ img {
         box-shadow: 0 -1px 4px rgba(0,0,0,.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
+    }
+    
+     body{
+      margin: 0 0 var(--header-height) 0;
     }
 }   
 
